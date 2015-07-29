@@ -10,10 +10,10 @@ public class Moon : MonoBehaviour {
 	public float radius = 5.0f;
 	public float radiusSpeed = 0.5f;
 	public float rotationSpeed = 80.0f;
+	public GameObject planet;
 	
 	void Start () {
-		cube = GameObject.FindWithTag("MoonPlanet");
-		center = cube.transform;
+		center = planet.transform;
 		transform.position = (transform.position - center.position).normalized * radius + center.position;
 	}
 	
