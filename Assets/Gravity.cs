@@ -22,12 +22,11 @@ public class Gravity : MonoBehaviour {
 	void FixedUpdate () 
 	{
 		float StrengthOfAttraction = basePull * transform.localScale.x*0.5f;
-		
 		player = GameObject.FindGameObjectWithTag("Player");
 		if (player)
 		{
 			var distance = Vector3.Distance(transform.position, player.transform.position);
-			if (distance < transform.localScale.x*0.5 + 50)
+			if (distance < transform.localScale.x*0.5 + 500)
 			{	
 				//Declare Variables:
 				//magsqr will be the offset squared between the object and the planet
