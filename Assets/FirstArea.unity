@@ -591,6 +591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3621e27c8e2ee014ea4c4696bdf0d9a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 403655606}
+  speed: 5
 --- !u!1001 &577225908
 Prefab:
   m_ObjectHideFlags: 0
@@ -909,7 +911,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1325642345 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
