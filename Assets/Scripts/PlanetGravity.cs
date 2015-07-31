@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Gravity : MonoBehaviour {
+public class PlanetGravity : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -14,10 +14,11 @@ public class Gravity : MonoBehaviour {
 	}
 	
 	//Strength of attraction from your sphere (obviously, it can be any type of game-object)
-	public float basePull = 120;
+	float basePull = 120;
+
+	GameObject player;
 	
 	//Obviously, you won't be using planets, so change this variable to whatever you want
-	GameObject player;
 	//Use FixedUpdate because we are controlling the orbit with physics
 	void FixedUpdate () 
 	{
@@ -26,7 +27,7 @@ public class Gravity : MonoBehaviour {
 		if (player)
 		{
 			var distance = Vector3.Distance(transform.position, player.transform.position);
-			if (distance < 200)
+			if (distance < 50)
 			{	
 				//Declare Variables:
 				//magsqr will be the offset squared between the object and the planet
