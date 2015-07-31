@@ -35,6 +35,7 @@ public class PlayerMovementControlls : MonoBehaviour {
 			GetComponent<Rigidbody2D>().velocity = Vector2.Lerp(GetComponent<Rigidbody2D>().velocity, Vector2.zero, 0.25f);
 		}
 	}
+
 	//Public Vars
 	public Camera camera;
 	public float speed;
@@ -54,5 +55,6 @@ public class PlayerMovementControlls : MonoBehaviour {
 			//Move towards the mouse
 			GetComponent<Rigidbody2D>().AddForce(direction * speed * distanceFromObject * Time.deltaTime);
 	}//End Fire3 If case
+
 
 }

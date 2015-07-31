@@ -439,11 +439,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.5
+      value: -17.5499992
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.79999995
+      value: 9.27000046
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -467,7 +467,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_Name
@@ -499,8 +499,8 @@ GameObject:
   - 33: {fileID: 576243294}
   - 23: {fileID: 576243293}
   - 50: {fileID: 576243292}
-  - 61: {fileID: 576243296}
   - 114: {fileID: 576243297}
+  - 58: {fileID: 576243296}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -517,7 +517,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 576243291}
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -534,7 +534,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3a751fbbaf589fc488e3d41c22abb79f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -554,7 +554,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 576243291}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &576243295
 Transform:
   m_ObjectHideFlags: 0
@@ -567,8 +567,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
---- !u!61 &576243296
-BoxCollider2D:
+--- !u!58 &576243296
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -579,7 +579,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Radius: .5
 --- !u!114 &576243297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,11 +685,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.69999981
+      value: -5.76999998
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.80000019
+      value: -.0599999987
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -713,7 +713,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalScale.x
@@ -1101,11 +1101,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0999999
+      value: .430000007
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.6999998
+      value: 6.07999992
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1129,7 +1129,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 33e8201466b9594409bc62a77b9ab1e5, type: 3}
       propertyPath: m_Name
@@ -1388,7 +1388,7 @@ MonoBehaviour:
   center: {fileID: 285308644}
   axis: {x: 0, y: 0, z: 1}
   desiredPosition: {x: 0, y: 0, z: 0}
-  radius: 7
+  radius: 8
   radiusSpeed: .5
   rotationSpeed: 63.6100006
   planet: {fileID: 1325642345}

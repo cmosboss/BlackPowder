@@ -14,7 +14,7 @@ public class Gravity : MonoBehaviour {
 	}
 	
 	//Strength of attraction from your sphere (obviously, it can be any type of game-object)
-	public float basePull = 120;
+	float basePull = 120;
 	
 	//Obviously, you won't be using planets, so change this variable to whatever you want
 	GameObject player;
