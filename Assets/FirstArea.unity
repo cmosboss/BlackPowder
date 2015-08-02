@@ -501,6 +501,7 @@ GameObject:
   - 50: {fileID: 576243292}
   - 114: {fileID: 576243297}
   - 61: {fileID: 576243296}
+  - 114: {fileID: 576243298}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -591,7 +592,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3621e27c8e2ee014ea4c4696bdf0d9a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 403655606}
+  speed: 0
   crosshairImage: {fileID: 2800000, guid: bc20723042e014b4e8d27f65457c6dab, type: 3}
+--- !u!114 &576243298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576243291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf7822555a824804be52e5d2fd99310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machine: {fileID: 191096, guid: 472a25b4fc9ce495790d2bd1d8006ef7, type: 2}
+  grenade: {fileID: 0}
+  sniper: {fileID: 0}
+  shotSpawn: {fileID: 576243295}
+  fireRate: .100000001
+  fireRate2: 10
+  fireRate3: 3
 --- !u!1001 &577225908
 Prefab:
   m_ObjectHideFlags: 0
